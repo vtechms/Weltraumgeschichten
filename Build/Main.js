@@ -2902,6 +2902,7 @@ var VisualNovel;
             c: "Lasst uns versuchen zu fliehen, Trojoko braucht den USB-Stick!",
         };
         let selectedChoice2 = await VisualNovel.ƒS.Menu.getInput(choices2, "decision");
+        console.log("--------- Player score", VisualNovel.gameProgress.playerScore, "---------");
         VisualNovel.ƒS.Sound.play(VisualNovel.sounds.buttonClick, 1, false); // Plays this sound once
         // Does something depending on player choice
         if (selectedChoice2 == choices2.a) {
