@@ -19,7 +19,6 @@ namespace VisualNovel {
       characters.narrator,
       "Doch egal was die Entscheidung bringen sollte, das Schicksal hatte bereits entschieden!"
     );
-
     // Gives player answer choices and lets player choose
     let choices2 = {
       a: "Gebt ihnen den USB-Sick!",
@@ -35,24 +34,18 @@ namespace VisualNovel {
       if (gameProgress.playerScore <= 0) {
         return "end-negative";
       }
-      let currentScenceId = "022";
-      gameProgress.gameOverSceneId = currentScenceId;
-      return "game-over";
     } else if (selectedChoice2 == choices2.b) {
       if (gameProgress.playerScore >= 0 && gameProgress.playerScore <= 100) {
-        let currentScenceId = "022";
-        gameProgress.gameOverSceneId = currentScenceId;
-        return "game-over";
+        return "023";
       }
     } else if (selectedChoice2 == choices2.c) {
       if (gameProgress.playerScore >= 100) {
         return "end-positive";
       }
-      let currentScenceId = "022";
-      gameProgress.gameOverSceneId = currentScenceId;
-      return "game-over";
     }
 
-    await ƒS.update(1);
+    let currentScenceId = "022";
+    gameProgress.gameOverSceneId = currentScenceId;
+    return "game-over";
   }
 }

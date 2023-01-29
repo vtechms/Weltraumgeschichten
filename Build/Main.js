@@ -2910,26 +2910,20 @@ var VisualNovel;
             if (VisualNovel.gameProgress.playerScore <= 0) {
                 return "end-negative";
             }
-            let currentScenceId = "022";
-            VisualNovel.gameProgress.gameOverSceneId = currentScenceId;
-            return "game-over";
         }
         else if (selectedChoice2 == choices2.b) {
             if (VisualNovel.gameProgress.playerScore >= 0 && VisualNovel.gameProgress.playerScore <= 100) {
-                let currentScenceId = "022";
-                VisualNovel.gameProgress.gameOverSceneId = currentScenceId;
-                return "game-over";
+                return "023";
             }
         }
         else if (selectedChoice2 == choices2.c) {
             if (VisualNovel.gameProgress.playerScore >= 100) {
                 return "end-positive";
             }
-            let currentScenceId = "022";
-            VisualNovel.gameProgress.gameOverSceneId = currentScenceId;
-            return "game-over";
         }
-        await VisualNovel.ƒS.update(1);
+        let currentScenceId = "022";
+        VisualNovel.gameProgress.gameOverSceneId = currentScenceId;
+        return "game-over";
     }
     VisualNovel.NeueSzene21 = NeueSzene21;
 })(VisualNovel || (VisualNovel = {}));
