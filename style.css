@@ -43,8 +43,8 @@ speech {
 
 /* Start screen / splash screen */
 dialog[type="splash"] {
-  background-image: url("images/start-screen.jpg");
-  /*background-repeat: repeat;*/
+  background-image: url("images/start-screen.gif");
+  background-repeat: repeat;
   width: 100%;
   height: 100%;
 }
