@@ -51,7 +51,7 @@ namespace VisualNovel {
       characters.narrator,
       "Aiko verließ die IG und " +
         gameProgress.playername +
-        "verlor den Kontakt, als die IG begann, ihre Industrie-Leistung zu verdreifach – mit der Hilfe von Alice. "
+        " verlor den Kontakt, als die IG begann, ihre Industrie-Leistung zu verdreifach – mit der Hilfe von Alice. "
     );
     await ƒS.Speech.tell(
       characters.narrator,

@@ -94,7 +94,7 @@ namespace VisualNovel {
     );
     await ƒS.Speech.tell(
       characters.narrator,
-      gameProgress.playername + "betrachtet die Zahlenabfolge genauer."
+      gameProgress.playername + " betrachtet die Zahlenabfolge genauer."
     );
 
     await ƒS.Speech.tell(characters.system, "5 5 5 1 2 3 2");

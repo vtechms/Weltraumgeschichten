@@ -56,7 +56,7 @@ namespace VisualNovel {
 
     await ƒS.Speech.tell(
       characters.aiko,
-      gameProgress.playername + ",dir geht es gut, ich bin ja so froh."
+      gameProgress.playername + ", dir geht es gut, ich bin ja so froh."
     );
     await ƒS.Speech.tell(
       characters.mei,
@@ -83,7 +83,7 @@ namespace VisualNovel {
     await ƒS.Speech.tell(characters.wissenschaftler, "Wird erledigt.");
     await ƒS.Speech.tell(
       characters.wissenschaftler,
-      "Ich bin gespannt, ob unser Programm funktioniert"
+      "Ich bin gespannt, ob unser Programm funktioniert."
     );
 
     await ƒS.Character.hide(characters.wissenschaftlerin);
@@ -113,7 +113,7 @@ namespace VisualNovel {
     await ƒS.Speech.tell(
       characters.mei,
       gameProgress.playername +
-        " ,ist dir die Reise über noch etwas Merkwürdige aufgefallen?"
+        ", ist dir die Reise über noch etwas Merkwürdige aufgefallen?"
     );
 
     await ƒS.Character.hide(characters.lea);
@@ -198,12 +198,12 @@ namespace VisualNovel {
       characters.wissenschaftlerin,
       "Das Programm konnte den Virus fast vollständig analysieren. Hier gibt es nur noch eine kleine Hürde. Das sollte aber für " +
         gameProgress.playername +
-        "kein Problem sein."
+        " kein Problem sein."
     );
     await ƒS.Speech.tell(
       characters.mei,
       gameProgress.playername +
-        "löse die letzte Hürde und sicher dir ein Platz ganz oben in der IG."
+        " löse die letzte Hürde und sicher dir ein Platz ganz oben in der IG."
     );
     await ƒS.Speech.tell(characters.player, "Wird erledigt!");
 

@@ -1565,7 +1565,7 @@ var VisualNovel;
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.sprecher, "Nach dem du Dr. Millers Tagebuch gelesen hast, öffnest du die Datei mit dem Virus.");
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.player, "Der Code scheint verschlüsselt zu sein.");
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.player, "Ich muss irgendwie diese Sperre umgehen.");
-        await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.narrator, VisualNovel.gameProgress.playername + "betrachtet die Zahlenabfolge genauer.");
+        await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.narrator, VisualNovel.gameProgress.playername + " betrachtet die Zahlenabfolge genauer.");
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.system, "5 5 5 1 2 3 2");
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.system, "5 5 5 1 2 3 2");
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.system, "5 5 5 1 2 3 2");
@@ -3061,7 +3061,7 @@ var VisualNovel;
         // Defines which character is to be drawn at which position on canvas, but does not draw character on canvas
         await VisualNovel.ƒS.Character.show(VisualNovel.characters.aiko, VisualNovel.characters.aiko.pose.happy, VisualNovel.ƒS.positionPercent(40, 150));
         await VisualNovel.ƒS.update(1);
-        await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.aiko, VisualNovel.gameProgress.playername + ",dir geht es gut, ich bin ja so froh.");
+        await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.aiko, VisualNovel.gameProgress.playername + ", dir geht es gut, ich bin ja so froh.");
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.mei, "Können wir kurz das Wiedersehen verschieben, wir müssen noch kurz die ein oder andere Sache klären.");
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.mei, "Solang wir die Sachen klären, sichern die Wissenschaftler bitte kurz die Daten auf diesen Stick, den " +
             VisualNovel.gameProgress.playername +
@@ -3071,7 +3071,7 @@ var VisualNovel;
         await VisualNovel.ƒS.Character.show(VisualNovel.characters.wissenschaftlerin, VisualNovel.characters.wissenschaftlerin.pose.happy, VisualNovel.ƒS.positionPercent(40, 100));
         await VisualNovel.ƒS.update(1);
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.wissenschaftler, "Wird erledigt.");
-        await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.wissenschaftler, "Ich bin gespannt, ob unser Programm funktioniert");
+        await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.wissenschaftler, "Ich bin gespannt, ob unser Programm funktioniert.");
         await VisualNovel.ƒS.Character.hide(VisualNovel.characters.wissenschaftlerin);
         // Defines which character is to be drawn at which position on canvas, but does not draw character on canvas
         await VisualNovel.ƒS.Character.show(VisualNovel.characters.lea, VisualNovel.characters.lea.pose.smile, VisualNovel.ƒS.positionPercent(20, 200));
@@ -3082,7 +3082,7 @@ var VisualNovel;
         await VisualNovel.ƒS.Character.show(VisualNovel.characters.mei, VisualNovel.characters.mei.pose.surprised, VisualNovel.ƒS.positionPercent(70, 120));
         await VisualNovel.ƒS.update(1);
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.mei, VisualNovel.gameProgress.playername +
-            " ,ist dir die Reise über noch etwas Merkwürdige aufgefallen?");
+            ", ist dir die Reise über noch etwas Merkwürdige aufgefallen?");
         await VisualNovel.ƒS.Character.hide(VisualNovel.characters.lea);
         await VisualNovel.ƒS.Character.hide(VisualNovel.characters.mei);
         // Defines which character is to be drawn at which position on canvas, but does not draw character on canvas
@@ -3124,9 +3124,9 @@ var VisualNovel;
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.wissenschaftlerin, "Ja, wir haben es.");
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.wissenschaftlerin, "Das Programm konnte den Virus fast vollständig analysieren. Hier gibt es nur noch eine kleine Hürde. Das sollte aber für " +
             VisualNovel.gameProgress.playername +
-            "kein Problem sein.");
+            " kein Problem sein.");
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.mei, VisualNovel.gameProgress.playername +
-            "löse die letzte Hürde und sicher dir ein Platz ganz oben in der IG.");
+            " löse die letzte Hürde und sicher dir ein Platz ganz oben in der IG.");
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.player, "Wird erledigt!");
         await VisualNovel.ƒS.Character.hide(VisualNovel.characters.mei);
         await VisualNovel.ƒS.Character.hide(VisualNovel.characters.wissenschaftlerin);
@@ -3347,7 +3347,7 @@ var VisualNovel;
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.narrator, "Es stellte sich heraus, dass diese Organisation die Schuldigen hinter den Angriffen waren. Sofi und David gehörten dieser Organisation an.");
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.narrator, "Aiko verließ die IG und " +
             VisualNovel.gameProgress.playername +
-            "verlor den Kontakt, als die IG begann, ihre Industrie-Leistung zu verdreifach – mit der Hilfe von Alice. ");
+            " verlor den Kontakt, als die IG begann, ihre Industrie-Leistung zu verdreifach – mit der Hilfe von Alice. ");
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.narrator, "Darunter litten die Bewohner und der Plant stark, was Aiko nicht unterstützen wollte.");
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.narrator, VisualNovel.gameProgress.playername +
             " fand gefallen an der Rolle bei der IG. Ein Bürgerkrieg begann und die Rebellen lehnten sich gegen die Machthaber auf.");
@@ -3699,7 +3699,7 @@ var VisualNovel;
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.narrator, "Menschen und Monster lebten glücklich miteinander.");
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.narrator, "Aiko und " +
             VisualNovel.gameProgress.playername +
-            "kamen zusammen und wenn sie nicht gestorben sind, dann leben sie noch heute.");
+            " kamen zusammen und wenn sie nicht gestorben sind, dann leben sie noch heute.");
         await VisualNovel.ƒS.Character.hide(VisualNovel.characters.sprecher);
         await VisualNovel.ƒS.update(1);
         // Visual novel has reached the positive end

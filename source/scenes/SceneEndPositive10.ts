@@ -39,7 +39,7 @@ namespace VisualNovel {
       characters.narrator,
       "Aiko und " +
         gameProgress.playername +
-        "kamen zusammen und wenn sie nicht gestorben sind, dann leben sie noch heute."
+        " kamen zusammen und wenn sie nicht gestorben sind, dann leben sie noch heute."
     );
 
     await ƒS.Character.hide(characters.sprecher);
