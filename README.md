@@ -3,5 +3,7 @@ Github-Pages:
 
 
 # Reference
-- [VisualNovel Github-Pages](https://vtechms.github.io/Weltraumgeschichten/)
+- [Github-Pages](https://vtechms.github.io/Weltraumgeschichten/)
+- [Quellcode](https://github.com/vtechms/Weltraumgeschichten/tree/main/source)
+- [Konzept-Dokument](...)
 
