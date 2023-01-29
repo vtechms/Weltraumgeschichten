@@ -1,6 +1,5 @@
 # VisualNovel - Weltraumgeschichten
-Github-Pages: 
-
+by Manuel Kasperzack
 
 # Reference
 - [Github-Pages](https://vtechms.github.io/Weltraumgeschichten/)
