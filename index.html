@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="Fudge/FudgeCore.js"></script>
+    <script src="FudgeStory/FudgeStory.js"></script>
+    <script src="./Build/Main.js"></script>
+    <title>Die unglaubliche Geschichte</title>
+  </head>
+
+  <body>
+    <scene>
+      <dialog type="splash" open>
+        <img id="FudgeStoryLogo" theme="dark" />
+        <!-- use "light" or "dark" -->
+        <p>
+          <!-- Instead of providing text for splash screen here, 
+            text is provided in <content></content> below. 
+            This better fits the visual novel design -->
+        </p>
+      </dialog>
+
+      <canvas></canvas>
+
+      <speech>
+        <name><!-- The name of the character speaking --></name>
+        <content
+          ><b>Steuerung:</b> <br />
+          - Klicke die linke Maustaste, um die Reise zu starten!<br />
+          - Drücke die Taste "i", um das Inventar zu öffnen oder zu schließen.<br />
+          - Drücke die Taste "m", um das Menü zu öffnen oder zu schließen.
+          <!-- The text the character says --></content
+        >
+      </speech>
+
+      <dialog type="text">
+        <!-- The content of a page of text for reading -->
+      </dialog>
+
+      <dialog type="inventory">
+   
+        <button type="button">Verlasse Inventar</button>
+        <ul></ul>
+      </dialog>
+
+    <!-- Player's meter bar -->
+    <div type="interface">
+      <input id="scoreForPlayer" type="text" value="Respekt" disabled>
+      <!-- für value der Skala; Füllung -->
+      <meter id="playerMeter" name="playerScore" min="0" max="100" disabled></meter>
+    </div>
+    </scene>
+
+
+  </body>
+</html>
