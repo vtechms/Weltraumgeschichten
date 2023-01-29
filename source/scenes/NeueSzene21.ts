@@ -32,20 +32,20 @@ namespace VisualNovel {
     // Does something depending on player choice
     if (selectedChoice2 == choices2.a) {
       // Depending on the gameProgress.playerScore, the positive or negative end is shown
-      if (gameProgress.playerScore == 0) {
+      if (gameProgress.playerScore <= 0) {
         return "end-negative";
       }
       let currentScenceId = "022";
       gameProgress.gameOverSceneId = currentScenceId;
       return "game-over";
     } else if (selectedChoice2 == choices2.b) {
-      if (gameProgress.playerScore == 0 || gameProgress.playerScore == 100) {
+      if (gameProgress.playerScore >= 0 && gameProgress.playerScore <= 100) {
         let currentScenceId = "022";
         gameProgress.gameOverSceneId = currentScenceId;
         return "game-over";
       }
     } else if (selectedChoice2 == choices2.c) {
-      if (gameProgress.playerScore == 100) {
+      if (gameProgress.playerScore >= 100) {
         return "end-positive";
       }
       let currentScenceId = "022";

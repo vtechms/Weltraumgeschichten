@@ -2907,7 +2907,7 @@ var VisualNovel;
         // Does something depending on player choice
         if (selectedChoice2 == choices2.a) {
             // Depending on the gameProgress.playerScore, the positive or negative end is shown
-            if (VisualNovel.gameProgress.playerScore == 0) {
+            if (VisualNovel.gameProgress.playerScore <= 0) {
                 return "end-negative";
             }
             let currentScenceId = "022";
@@ -2915,14 +2915,14 @@ var VisualNovel;
             return "game-over";
         }
         else if (selectedChoice2 == choices2.b) {
-            if (VisualNovel.gameProgress.playerScore == 0 || VisualNovel.gameProgress.playerScore == 100) {
+            if (VisualNovel.gameProgress.playerScore >= 0 && VisualNovel.gameProgress.playerScore <= 100) {
                 let currentScenceId = "022";
                 VisualNovel.gameProgress.gameOverSceneId = currentScenceId;
                 return "game-over";
             }
         }
         else if (selectedChoice2 == choices2.c) {
-            if (VisualNovel.gameProgress.playerScore == 100) {
+            if (VisualNovel.gameProgress.playerScore >= 100) {
                 return "end-positive";
             }
             let currentScenceId = "022";
