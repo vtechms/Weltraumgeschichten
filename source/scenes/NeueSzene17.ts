@@ -163,7 +163,7 @@ namespace VisualNovel {
 
     await ƒS.Speech.tell(
       characters.mei,
-      "Sofi," + gameProgress.playername + ", unternehmt etwas!!!"
+      "Sofi, " + gameProgress.playername + ", unternehmt etwas!!!"
     );
 
     await ƒS.Character.show(

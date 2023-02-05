@@ -87,5 +87,6 @@ namespace VisualNovel {
     await ƒS.update(1);
 
     // Visual novel has reached the negative end
+    return "thanks-for-playing"
   }
 }

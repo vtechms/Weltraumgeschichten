@@ -119,7 +119,7 @@ namespace VisualNovel {
       characters.sofi,
       "Ahm, ich meine, hier ist etwas, was ich nicht verstehe ..."
     );
-    await ƒS.Speech.tell(characters.sofi, "Es sieht aus wie ein Rätsel");
+    await ƒS.Speech.tell(characters.sofi, "Es sieht aus wie ein Rätsel.");
     await ƒS.Speech.tell(
       characters.sofi,
       gameProgress.playername +

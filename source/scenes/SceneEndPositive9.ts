@@ -65,7 +65,7 @@ namespace VisualNovel {
 
     await ƒS.Speech.tell(
       characters.aiko,
-      "Du hast Eecht, ich muss das hier unbedingt Skarana zeigen."
+      "Du hast recht, ich muss das hier unbedingt Skarana zeigen."
     );
 
     await ƒS.Character.hide(characters.aiko);

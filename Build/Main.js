@@ -1093,7 +1093,7 @@ var VisualNovel;
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.wissenschaftler, "Wir sind sehr dankbar, dass ihr uns helfen werdet, wie bereits erwähnt, glaubt die Internationale Gemeinschaft, dass Rebellen der Trojoko Fraktion etwas damit zu tun haben.");
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.wissenschaftlerin, "Die Hauptaufgabe besteht nun darin, Hinweise zu sichern und den Computervirus auszuschalten.");
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.wissenschaftlerin, VisualNovel.gameProgress.playername +
-            "Bitte nimm zuerst Kontakt zu Lea auf und versuch sie zu überzeugen, der Gruppe beizutreten.");
+            " bitte nimm zuerst Kontakt zu Lea auf und versuch sie zu überzeugen, der Gruppe beizutreten.");
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.wissenschaftler, "Danach meldest du dich bei diesen IG Kontakten.");
         await VisualNovel.ƒS.Character.hide(VisualNovel.characters.wissenschaftler);
         await VisualNovel.ƒS.update(1);
@@ -1114,7 +1114,7 @@ var VisualNovel;
         await VisualNovel.ƒS.Character.show(VisualNovel.characters.sprecher, VisualNovel.characters.sprecher.pose.happy, VisualNovel.ƒS.positions.bottomcenter);
         // Draws character on canvas (updates entire canvas)
         await VisualNovel.ƒS.update(2);
-        await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.narrator, "Aiko wohnte 2 Häuser weg von ihm; sie kennen sich schon ihr ganzes Leben.");
+        await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.narrator, "Aiko wohnte 2 Häuser weg von ihm, sie kennen sich schon ihr ganzes Leben.");
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.narrator, "Wenn Aiko bei einer guten Sache nicht mit machen will, hatte das meist einen Grund.");
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.narrator, VisualNovel.gameProgress.playername + " kommt bei Aikos Wohnung an.");
         await VisualNovel.ƒS.Character.hide(VisualNovel.characters.sprecher);
@@ -1192,7 +1192,7 @@ var VisualNovel;
             return "game-over";
         }
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.aiko, "Ich erzähl dir etwas, es muss aber unser Geheimnis bleiben, hast du verstanden!");
-        await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.player, "Ja, natürlich");
+        await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.player, "Ja, natürlich.");
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.aiko, "Du weißt es vermutlich nicht, aber meine Eltern gehören zu einer Gruppe der Rebellen von Trojoko.");
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.aiko, "Ich wollte nie etwas mit den Rebellen zu tun haben.");
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.aiko, "Wenn ich mich jetzt in die Sache einmische, sind meine Eltern bestimmt sauer.");
@@ -2225,7 +2225,7 @@ var VisualNovel;
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.david, "Viel zu spät, der Virus ist bereits im System und braucht nur noch einen kurzen Moment, bis er sich entfaltet.");
         await VisualNovel.ƒS.Character.hide(VisualNovel.characters.david);
         await VisualNovel.ƒS.Character.hide(VisualNovel.characters.sprecher);
-        await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.mei, "Sofi," + VisualNovel.gameProgress.playername + ", unternehmt etwas!!!");
+        await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.mei, "Sofi, " + VisualNovel.gameProgress.playername + ", unternehmt etwas!!!");
         await VisualNovel.ƒS.Character.show(VisualNovel.characters.sofi, VisualNovel.characters.sofi.pose.sad, VisualNovel.ƒS.positionPercent(20, 100));
         await VisualNovel.ƒS.update(1);
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.sofi, "Ich weiß nicht, was.");
@@ -2299,7 +2299,7 @@ var VisualNovel;
         await VisualNovel.ƒS.update(1);
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.sofi, "Hier sollte es so was nicht geben.");
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.sofi, "Ahm, ich meine, hier ist etwas, was ich nicht verstehe ...");
-        await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.sofi, "Es sieht aus wie ein Rätsel");
+        await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.sofi, "Es sieht aus wie ein Rätsel.");
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.sofi, VisualNovel.gameProgress.playername +
             ", helf mir SCHNELL. Da die Sicherheits-Verschlüsslung des Kernprogramms offen ist, können wir die Ausbreitung verhindern.");
         await VisualNovel.ƒS.Character.hide(VisualNovel.characters.sofi);
@@ -3573,6 +3573,7 @@ var VisualNovel;
         await VisualNovel.ƒS.update(1);
         await VisualNovel.ƒS.update(1);
         // Visual novel has reached the negative end
+        return "thanks-for-playing";
     }
     VisualNovel.SceneEndNegative3 = SceneEndNegative3;
 })(VisualNovel || (VisualNovel = {}));
@@ -3624,6 +3625,8 @@ var VisualNovel;
         await VisualNovel.ƒS.update(1);
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.stev, "So soll es sein, wir versuchen zu flüchten!");
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.narrator, "John, Natascha und Sofi verlassen das Schiff.");
+        await VisualNovel.ƒS.Character.hide(VisualNovel.characters.sofi);
+        await VisualNovel.ƒS.update(1);
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.stev, "Alle festhalten, wünscht uns Glück.");
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.jin, "Chan, das Schiff versucht zu flüchten und mehrere bemannte Fluchtkapseln kommen auf uns zu.");
         await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.chan, "Ignoriert die Kapseln, verfolgt das Schiff.");
@@ -3675,7 +3678,7 @@ var VisualNovel;
             await VisualNovel.ƒS.Character.hide(VisualNovel.characters.luna);
             await VisualNovel.ƒS.update(1);
             await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.narrator, "Du begibst dich auf das Rebellenschiff, die restliche Crew bleibt auf dem Handelsschiff.");
-            await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.narrator, "Sie warten auf die IG Flotte");
+            await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.narrator, "Sie warten auf die IG Flotte.");
         }
         await VisualNovel.ƒS.Character.hide(VisualNovel.characters.sprecher);
         await VisualNovel.ƒS.update(1);
@@ -3703,6 +3706,7 @@ var VisualNovel;
         await VisualNovel.ƒS.Character.hide(VisualNovel.characters.sprecher);
         await VisualNovel.ƒS.update(1);
         // Visual novel has reached the positive end
+        return "thanks-for-playing";
     }
     VisualNovel.SceneEndPositive10 = SceneEndPositive10;
 })(VisualNovel || (VisualNovel = {}));
@@ -4352,7 +4356,7 @@ var VisualNovel;
         // Defines which character is to be drawn at which position on canvas, but does not draw character on canvas
         await VisualNovel.ƒS.Character.show(VisualNovel.characters.aiko, VisualNovel.characters.aiko.pose.h_r_smile, VisualNovel.ƒS.positionPercent(70, 100));
         await VisualNovel.ƒS.update(1);
-        await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.aiko, "Du hast Eecht, ich muss das hier unbedingt Skarana zeigen.");
+        await VisualNovel.ƒS.Speech.tell(VisualNovel.characters.aiko, "Du hast recht, ich muss das hier unbedingt Skarana zeigen.");
         await VisualNovel.ƒS.Character.hide(VisualNovel.characters.aiko);
         await VisualNovel.ƒS.update(1);
         // Defines which character is to be drawn at which position on canvas, but does not draw character on canvas

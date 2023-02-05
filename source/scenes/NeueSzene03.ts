@@ -112,7 +112,7 @@ namespace VisualNovel {
     await ƒS.Speech.tell(
       characters.wissenschaftlerin,
       gameProgress.playername +
-        "Bitte nimm zuerst Kontakt zu Lea auf und versuch sie zu überzeugen, der Gruppe beizutreten."
+        " bitte nimm zuerst Kontakt zu Lea auf und versuch sie zu überzeugen, der Gruppe beizutreten."
     );
     await ƒS.Speech.tell(
       characters.wissenschaftler,

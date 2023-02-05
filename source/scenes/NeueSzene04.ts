@@ -20,7 +20,7 @@ namespace VisualNovel {
     await ƒS.update(2);
     await ƒS.Speech.tell(
       characters.narrator,
-      "Aiko wohnte 2 Häuser weg von ihm; sie kennen sich schon ihr ganzes Leben."
+      "Aiko wohnte 2 Häuser weg von ihm, sie kennen sich schon ihr ganzes Leben."
     );
     await ƒS.Speech.tell(
       characters.narrator,
@@ -147,7 +147,7 @@ namespace VisualNovel {
       characters.aiko,
       "Ich erzähl dir etwas, es muss aber unser Geheimnis bleiben, hast du verstanden!"
     );
-    await ƒS.Speech.tell(characters.player, "Ja, natürlich");
+    await ƒS.Speech.tell(characters.player, "Ja, natürlich.");
     await ƒS.Speech.tell(
       characters.aiko,
       "Du weißt es vermutlich nicht, aber meine Eltern gehören zu einer Gruppe der Rebellen von Trojoko."

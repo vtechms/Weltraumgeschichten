@@ -118,6 +118,8 @@ namespace VisualNovel {
       characters.narrator,
       "John, Natascha und Sofi verlassen das Schiff."
     );
+    await ƒS.Character.hide(characters.sofi);
+    await ƒS.update(1);
     await ƒS.Speech.tell(
       characters.stev,
       "Alle festhalten, wünscht uns Glück."
@@ -222,7 +224,7 @@ namespace VisualNovel {
         characters.narrator,
         "Du begibst dich auf das Rebellenschiff, die restliche Crew bleibt auf dem Handelsschiff."
       );
-      await ƒS.Speech.tell(characters.narrator, "Sie warten auf die IG Flotte");
+      await ƒS.Speech.tell(characters.narrator, "Sie warten auf die IG Flotte.");
     }
 
     await ƒS.Character.hide(characters.sprecher);
